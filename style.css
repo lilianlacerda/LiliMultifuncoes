@@ -63,6 +63,23 @@ footer{
     font-size: 1rem;
 }
 
+div{
+    text-align: center;
+}
+
+.gifDado{
+    width: 100px;
+}
+
+.resultado{
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.escondido{
+    display: none;
+}
+
 @media (max-width: 768px) {
     h1{
         font-size: 2rem;

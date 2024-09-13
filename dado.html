@@ -12,10 +12,15 @@
         <h1>Dado virtual!</h1>
     </header>  
     <main>
-        <p> Role os dados e veja qual número tirou.</p>
+        <p> Cliente no botão para rolar os dados e veja qual número tirou!</p>
         <section>
+            <div id="dado" class="escondido">
+                <img id="gifDado" class="gifDado" src="gif-dado.gif" alt="Dado girando">
+                <p id="resultado" class="resultado"> </p>
+            </div>
+
             <!--Seção para campo de pesquisa e botão-->
-            <button onclick="">Rolar o dado</button>
+            <button id="rolarDado"">Rolar o dado</button>
             <!--Botão de pesquisa. TODO: COLOCAR A FUNÇÃO DO JS AQUI-->
         </section>
         <section>
@@ -24,7 +29,8 @@
     </main>  
     <footer>
         <p>Todos direitos reservados. Lili's solutions</p>
-        <p>Caso tenham dúvidas, criticas ou sugestão, entre em contato: lilimsolutions@gmail.com</p>
+        <p>Caso tenham dúvidas, criticas ou sugestões, entre em contato: lilimsolutions@gmail.com</p>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
