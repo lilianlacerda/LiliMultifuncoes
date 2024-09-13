@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #cadad6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: #222231;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+section input{
+    width: 30rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    color: #4b4545;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+}
+
+section button{
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #33305e;
+    color: #F5F7F8;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+section button:hover{
+    background-color: #33305e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    background-color: #F5F7F8;
+    color: #45474B;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+    section input {
+        width: 25rem; /* Largura dos inputs em telas menores */
+        padding: 0.8rem; /* Espaçamento interno em telas menores */
+    }
+
+    /* TODO: COLOCAR AQUI TAMBÉM*/
+    
+}
+
+@media(max-width: 480px){
+    h1 {
+        font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
+        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    }
+
+    section input {
+        width: 17rem; /* Largura total dos inputs em telas pequenas */
+    }
+
+    section button {
+        padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
+        font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+    }
+
+    footer {
+        font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+    }
+}
