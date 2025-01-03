@@ -1,4 +1,3 @@
-
 # Bem vindo ao Lili Multifunções!
 
 Aqui você encontra algumas funcionalidades que aprendi ao longo dos meus estudos independentes de JavaScript, Lógica de programação e HTML com CSS! 
